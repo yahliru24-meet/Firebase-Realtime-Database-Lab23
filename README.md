@@ -17,28 +17,28 @@ As well as the structure of the database.
 > Before we start, make sure to go to open the folder from the previous lab, and continue to work there.
 
 
-## Twitter Lab:
+## Twitter Lab: 
 
 1. Setting up Realtime Database in `Firebase`:
     1. Go to your console and choose your project.
     2. Go to Realtime Database and create a database.
     3. Go to rules and change false to true.
-    4. Make sure to copy the database's link.
+    4. Make sure to copy the database's link. V
 
 2. Setting up Realtime Database in `app.py`:
     1. In the config dictionary add databaseURL as a key and the link you copied as the value.
-    2. Intialize the 'db' using the firebase object.
+    2. Intialize the 'db' using the firebase object. V
 
 
-3. Add in `signup.html` 3 inputs:
+3. Add in `signup.html` 3 inputs: V
     1. `full_name`
     2. `username`
     3. `bio` - It should take a maximum of 280 letters.
 
 
-4. When the user signs up:
+4. When the user signs up: V
     - Create a dictionary called user that contains the inputs' name as keys and and the inputs as values.
-    - Add the user to the `database` through the child `Users` adding him through his uid (retrieve it through login_session).
+    - Add the user to the `database` through the child `Users` adding him through his uid (retrieve it through login_session). 
 
 
 5. Create a form in `add_tweet.html` to add a tweet to the database:
