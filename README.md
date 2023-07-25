@@ -41,7 +41,7 @@ As well as the structure of the database.
     - Add the user to the `database` through the child `Users` adding him through his uid (retrieve it through login_session). 
 
 
-5. Create a form in `add_tweet.html` to add a tweet to the database:
+5. Create a form in `add_tweet.html` to add a tweet to the database: V
     - The form should contain:
         - `Title`.
         - `Text`- It should take a maximum of 280 letters.
